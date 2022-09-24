@@ -17,7 +17,7 @@ The following **optional** features are implemented:
 
 - [X] Wishlist app is 🎨 **customized** 🎨
 - [ ] User can delete an item by long pressing on the item
-- [X] User can open an item's URL by clicking on the item (but does not click if the URL is valid or not)
+- [X] User can open an item's URL by clicking on the item (but does not check if the URL is valid or not)
 
 The following **additional** features are implemented:
 
