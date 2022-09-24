@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/wishlistRV"
+        android:layout_width="410dp"
+        android:layout_height="573dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="413dp"
+        android:layout_height="127dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <EditText
+            android:id="@+id/nameInput"
+            android:layout_width="273dp"
+            android:layout_height="59dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="128dp"
+            android:layout_marginBottom="63dp"
+            android:ems="10"
+            android:hint="Name of the item"
+            android:inputType="textPersonName"
+            tools:text="ITEM NAME" />
+
+        <EditText
+            android:id="@+id/priceInput"
+            android:layout_width="98dp"
+            android:layout_height="61dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="21dp"
+            android:layout_marginBottom="66dp"
+            android:ems="10"
+            android:hint="Price"
+            android:inputType="numberDecimal"
+            android:textAlignment="viewEnd"
+            tools:ignore="SpeakableTextPresentCheck"
+            tools:text="15.00" />
+
+        <EditText
+            android:id="@+id/urlInput"
+            android:layout_width="278dp"
+            android:layout_height="51dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="70dp"
+            android:layout_marginEnd="123dp"
+            android:layout_marginBottom="6dp"
+            android:ems="10"
+            android:hint="URL"
+            android:inputType="textPersonName"
+            tools:text="https://docs.google.com/presentation/d/1_TWny9_FZkD6ErTdRplrV1_Zn4CFYsrM7frgoZLluoM/edit#slide=id.g155bf74936a_0_51" />
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="wrap_content"
+            android:layout_height="51dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="301dp"
+            android:layout_marginTop="69dp"
+            android:layout_marginEnd="21dp"
+            android:layout_marginBottom="7dp"
+            android:text="Submit"
+            android:textSize="12dp" />
+
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

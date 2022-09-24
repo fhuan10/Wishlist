@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/nameTV"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        android:textSize="30dp"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="ITEM NAME" />
+
+    <TextView
+        android:id="@+id/priceTV"
+        android:layout_width="92dp"
+        android:layout_height="27dp"
+        android:textAlignment="viewEnd"
+        android:paddingRight="5dp"
+        android:textSize="20dp"
+        android:textColor="#6d336c"
+        android:fontFamily="casual"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.728"
+        app:layout_constraintStart_toEndOf="@+id/nameTV"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="15.99" />
+
+    <TextView
+        android:id="@+id/urlTV"
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        android:autoLink="all"
+        android:fontFamily="serif-monospace"
+        android:linksClickable="true"
+        android:paddingRight="5dp"
+        android:textAlignment="viewEnd"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nameTV"
+        tools:text="https://docs.google.com/presentation/d/1_TWny9_FZkD6ErTdRplrV1_Zn4CFYsrM7frgoZLluoM/edit#slide=id.g13a39fd57e4_0_351" />
+</androidx.constraintlayout.widget.ConstraintLayout>
