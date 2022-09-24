@@ -30,8 +30,7 @@ Here's a walkthrough of implemented user stories:
 ![TqfZKBj](https://user-images.githubusercontent.com/99567644/192084175-95e141a9-7c90-4f7c-ac4d-59345c4f42fc.gif)
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
-LipCap
+GIF created with LipCap
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
 [peek](https://github.com/phw/peek) for Linux. -->
